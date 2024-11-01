@@ -1,0 +1,15 @@
+@url = https://8080-kqtharine-sw2510-32ml4pglv4o.ws-us116.gitpod.io
+
+GET {{url}}/jogos
+
+###
+POST {{url}}/jogos
+Content-Type: application/json
+
+{
+    "titulo": "MINECRAAAAAAAFT 2.0",
+    "plataformas": [
+        {"id": 1},
+        {"id": 3}
+    ]
+}
