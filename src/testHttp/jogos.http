@@ -1,4 +1,4 @@
-@url = https://8080-kqtharine-sw2510-32ml4pglv4o.ws-us116.gitpod.io
+@url = https://8080-kqtharine-sw2510-t2ea4umj0ou.ws-us116.gitpod.io
 
 GET {{url}}/jogos
 
@@ -10,6 +10,20 @@ Content-Type: application/json
     "titulo": "MINECRAAAAAAAFT 2.0",
     "plataformas": [
         {"id": 1},
-        {"id": 3}
+        {"id": 2}
+    ]
+}
+
+###
+DELETE {{url}}/jogos/2
+
+###
+PUT {{url}}/jogos/2
+Content-Type: application/json
+
+{
+    "titulo": "MINECRAAAAAAAFT 2.5",
+    "plataformas": [
+        {"id": 2}
     ]
 }
